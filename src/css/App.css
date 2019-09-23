@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #4a90e2;
+  height: 64px;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 42px;
+}
+header nav #logo {
+  height: 24px;
+}
+
+header nav #perfil {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+header nav #perfil span {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+header nav #perfil i {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+#postList {
+  width: 75%;
+  margin: 25px auto;
+}
+
+#postList #post {
+  background: #fff;
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 5px;
+  box-shadow: 1px -1px 5px #dddddd;
+}
+#postList #post small {
+  color: #99979c;
+}
+#postList #post p {
+  margin: 20px 0;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#postList #post img {
+  float: left;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#postList #post #comment {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+}
+#postList #post #comment p {
+  margin: 0;
+  padding: 10px;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
